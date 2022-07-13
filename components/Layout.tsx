@@ -5,11 +5,11 @@ import Navbar from "./Navbar";
 export default function Layout(props: any) {
     return (
         <div className="h-screen scrollbar-hide">
-            {/* <Navbar /> */}
+            <Navbar />
             <main className="">
                 {React.cloneElement(props.children)}
             </main>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
